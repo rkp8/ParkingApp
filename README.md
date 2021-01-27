@@ -38,9 +38,9 @@ Build a user Database which has user details such as Name, Address, car model,ma
 Implement various options in the app such as scanning a QR code, Reserve and exit a Spot functionality by updating DB, and showing various spots to choose from.
 
 Cree:
-Create enter method which takes in userId and spaceId as arguments, queries database for spaceId value, updates the paired userId with the new value (should be null before update) and sets availability to 0
-Create exit method which takes in userId, queries parking lot table for userid value, updates the userId to null, and sets availability to 1
-Implement some GUI functionality for a better experience.
+Implement GUI functionality for a better experience.
+Build front end UI for different use cases such as scanning QR code, reserving a spot and exiting a spot.  
+Allow users to enter information about themselves (Name, address, car model etc.) Store the information in the user database table. 
 
 Riken:
 Create a parking lot table, which relates user id with parking space id, with availability (0 or 1) if availability is 1 (space is open) user id will be null
