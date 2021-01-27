@@ -30,7 +30,6 @@ Aakash:
 Design the GUI Components of the App with Login functionality.
 Build a user Database which has user details such as Name, Address, car model,make,year and phone number.
 Implement various options in the app such as scanning a QR code, Reserve and exit a Spot functionality by updating DB, and showing various spots to choose from.
-Allow user to select only from the available parking spaces (via either a dropdown menu or direct interaction with the map)
 
 Cree:
 Create enter method which takes in userId and spaceId as arguments, queries database for spaceId value, updates the paired userId with the new value (should be null before update) and sets availability to 0
@@ -43,7 +42,7 @@ Design interactive maps using Java Swing. Make a demo parking lot for testing pu
 Create a method which is called every time user scans QR code, or refreshes to retrieve and update the map with the most recent data from parking lot table
 Every space with 1 in Availability should be highlighted in blue to mark as open
 Every space with 0 in Availability should be greyed out to mark as occupied  
-
+Allow user to select only from the available parking spaces (via either a dropdown menu or direct interaction with the map)
 
 
 <b>Advisor:</b> Dr. Kabir
