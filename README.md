@@ -17,14 +17,22 @@ On the way out users will be prompted to press an “exit” button which will u
 In addition to saving the user’s time, this is also a more efficient use of fuel and offers greater safety. Tens of thousands of crashes occur in parking lots and garages annually, resulting in hundreds of deaths and thousands of injuries (2021 National Safety Council). Our app can help decrease the chaos that typically occurs in parking lots, especially during busy times such as the holiday season, and in turn save lives.
 
 <b>Overview of App:</b>
+
 -Be able to scan QR code, retrieve information from the appropriate database and show the real-time parking lot map.
+
 -Have an ‘Enter’ and ‘Exit’ option 
+
 -Should allow user to select only from the available parking spaces (via either a dropdown menu or direct interaction with the map)
+
 -As car enters, assign unique user id to chosen parking space in database table 
+
 -Mark space as taken or open in database with 0 or 1 
+
 -Clearly display reserved space id number, for user to remember in top right-hand corner
--As car exits, query backend database for the unique user id, find the id of the space and mark the space as available
-Roles:
+
+ -As car exits, query backend database for the unique user id, find the id of the space and mark the space as available
+
+<b>Roles:</b>
 
 Aakash:
 Design the GUI Components of the App with Login functionality.
