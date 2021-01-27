@@ -49,7 +49,7 @@ Create a method which is called every time user scans QR code, or refreshes to r
 Every space with 1 in Availability should be highlighted in blue to mark as open
 Every space with 0 in Availability should be greyed out to mark as occupied  
 Allow user to select only from the available parking spaces (via either a dropdown menu or direct interaction with the map)
-
+Update lots table when user reserves or exits a spot, storing userId and availability.
 
 <b>Advisor:</b> Dr. Kabir
 
