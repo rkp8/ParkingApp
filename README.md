@@ -1,5 +1,3 @@
-CMPSC 488 Project 
-
 Parking Simplified
 
 <b>Team Name:</b> 
