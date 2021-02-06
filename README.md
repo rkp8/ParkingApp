@@ -1,7 +1,7 @@
 Parking Simplified
 
 <b>Team Name:</b> 
-The Wise Programmers
+PSUP
 <b>Team Members:</b>
 Aakash Patel, Cree Wolf, Riken Patel
 
