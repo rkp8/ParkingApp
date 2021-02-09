@@ -51,6 +51,6 @@ Every space with 0 in Availability should be greyed out to mark as occupied
 Allow user to select only from the available parking spaces (via either a dropdown menu or direct interaction with the map)
 Update lots table when user reserves or exits a spot, storing userId and availability.
 
-<b>Advisor:</b> Dr. Kabir
+<b>Advisor:</b> Dr. Nguyen
 
 <b>GitHub Repository:</b> https://github.com/rkp8/ParkingMapApp.git
