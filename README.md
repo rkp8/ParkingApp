@@ -33,6 +33,7 @@ In addition to saving the user’s time, this is also a more efficient use of fu
 <b>Roles:</b>
 
 Aakash:
+
   -Design the GUI Components of the App.
   
   -Build a user Database which has user details such as Name, Address, car model,make,year and phone number.
@@ -40,6 +41,7 @@ Aakash:
   -Implement various options in the app such as scanning a QR code, Reserve and exit a Spot functionality by updating DB, and showing various spots to choose from.
 
 Cree:
+
   -Implement GUI functionality for a better experience.
   
   -Build front end UI for different use cases such as scanning QR code, reserving a spot and exiting a spot.  
@@ -50,6 +52,7 @@ Cree:
 
 
 Riken:
+
   -Design and build check in/check out system
   
   -Create a Real-time map of the parking lot, which updates based on changes in the Firebase db
