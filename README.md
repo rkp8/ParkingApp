@@ -4,6 +4,7 @@ Parking Simplified
 PSUP
 <b>Team Members:</b>
 Aakash Patel, Cree Wolf, Riken Patel
+<br>
 
 <b>Description: </b>
 The Parking Map app is a Firebase Web and Android application which eliminates the stress of having to search through a parking lot for open spaces. Users are shown a real-time map of the entire lot with all open spaces highlighted in blue. They can then select an open space from the map to reserve it. This updates the database and the space will be marked as taken on the map. UI will update in real-time. 
@@ -13,6 +14,8 @@ Upon arriving, user must scan a QR code at the entrance to check in. This will o
 On the way out users will be need to checkout by scanning the QR code again. This will again open the gate.  
 
 In addition to saving the user’s time, this is also a more efficient use of fuel and offers greater safety. Tens of thousands of crashes occur in parking lots and garages annually, resulting in hundreds of deaths and thousands of injuries (2021 National Safety Council). Our app can help decrease the chaos that typically occurs in parking lots, especially during busy times such as the holiday season, and in turn save lives.
+<br>
+<br>
 
 <b>Overview of App:</b>
 
@@ -29,6 +32,8 @@ In addition to saving the user’s time, this is also a more efficient use of fu
 -Clearly highlight reserved space in green, for user to remember
 
  -As user checks out, mark the space as available again
+<br>
+<br>
 
 <b>Roles:</b>
 <br>
