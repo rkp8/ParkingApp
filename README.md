@@ -43,40 +43,36 @@ In addition to saving the user’s time, this is also a more efficient use of fu
 
 Aakash:
 
-  -Design the GUI Components of the App.
-  
-  -Build a user Database which has user details such as Name, Address, car model,make,year and phone number.
-  
-  -Implement various options in the app such as scanning a QR code, Reserve and exit a Spot functionality by updating DB, and showing various spots to choose from.
+ -Design the GUI Components of the App.
+ 
+ -Build a user Database which has user details such as Name, Address, car model, make, year and phone number.
+ 
+ -Allow users to schedule reservation in advance.
+ 
+ -Send text message notifications to users, if they are needing to extend reservation time.
 
 <br>
 Cree:
 
-  -Implement GUI functionality for a better experience.
+ -Implement GUI functionality for a better experience.
   
-  -Build front end UI for different use cases such as scanning QR code, reserving a spot and exiting a spot.  
-  
-  -Allow users to edit information about themselves (Name, address, car model etc.) 
-  
-  -Send text message notifications to users
+ -Allow users to edit information about themselves (Name, address, car model etc.)
+ 
+ -Allow users to schedule reservation in advance.
+ 
+ -Implement send SMS notifications feature. 
+
 
 <br>
 
 Riken:
 
-  -Design and build check in/check out system
-  
-  -Create a Real-time map of the parking lot, which updates based on changes in the Firebase db
-  
-     -Every space with 1 in Availability should be highlighted in blue to mark as open
-     
-     -Every space with 0 in Availability should be highlighted in red mark as occupied 
-     
-     -Every space with 1 in Issue should be yellow to mark as pending issue
-     
-     -Should allow admins to see all pending issues and resolve them:
-     
-     -Implement Reserve, Cancel and Report issue features.
+ -Design and build check in/check out system
+ 
+ -Create a QR code for the check in/check out system
+ 
+ -Create an interactive Real-time map of the parking lot, which updates based on changes in the Firebase db (see next page for more detail)
+
   <br>
 
   Proposed Design of Real-time Map:
@@ -84,7 +80,17 @@ Riken:
 
   <br>
 
-   Create a QR code for the check in/check out system
+    -Every space with 1 in Availability should be highlighted in blue to mark as open
+
+    -Every space with 0 in Availability should be highlighted in red mark as occupied 
+
+    -Every space with 1 in Issue should be yellow to mark as pending issue
+
+    -Space currently occupied by user should be green
+
+    -Should allow admins to see all pending issues and resolve them:
+
+    -Implement Reserve (check mark), Cancel (x mark) and Report issue (! mark) features.
 
 <br>
 
