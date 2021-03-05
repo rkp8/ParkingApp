@@ -90,7 +90,8 @@ Riken:
 
     -Should allow admins to see all pending issues and resolve them:
 
-    -Implement Reserve a spot (check mark), Cancel a reservation (x mark) and Report issue with a spot (! mark) features. All should update Firebase db accordingly
+    -Implement Reserve a spot (check mark), Cancel a reservation (x mark) and Report issue with a spot (! mark) features. 
+     All should update Firebase db accordingly.
 
 <br>
 
