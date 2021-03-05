@@ -33,25 +33,36 @@ In addition to saving the user’s time, this is also a more efficient use of fu
 <b>Roles:</b>
 
 Aakash:
-  Design the GUI Components of the App.
-  Build a user Database which has user details such as Name, Address, car model,make,year and phone number.
-  Implement various options in the app such as scanning a QR code, Reserve and exit a Spot functionality by updating DB, and showing various spots to choose from.
+  -Design the GUI Components of the App.
+  
+  -Build a user Database which has user details such as Name, Address, car model,make,year and phone number.
+  
+  -Implement various options in the app such as scanning a QR code, Reserve and exit a Spot functionality by updating DB, and showing various spots to choose from.
 
 Cree:
-  Implement GUI functionality for a better experience.
-  Build front end UI for different use cases such as scanning QR code, reserving a spot and exiting a spot.  
-  Allow users to edit information about themselves (Name, address, car model etc.) 
-  Send text message notifications to users
+  -Implement GUI functionality for a better experience.
+  
+  -Build front end UI for different use cases such as scanning QR code, reserving a spot and exiting a spot.  
+  
+  -Allow users to edit information about themselves (Name, address, car model etc.) 
+  
+  -Send text message notifications to users
 
 
 Riken:
-  Design and build check in/check out system
-  Create a Real-time map of the parking lot, which updates based on changes in the Firebase db
-     Every space with 1 in Availability should be highlighted in blue to mark as open
-     Every space with 0 in Availability should be greyed out to mark as occupied 
-     Every space with 1 in Issue should be yellow to mark as pending issue
-     Should allow admins to see all pending issues and resolve them:
-     Implement Reserve, Cancel and Report issue features.
+  -Design and build check in/check out system
+  
+  -Create a Real-time map of the parking lot, which updates based on changes in the Firebase db
+  
+     -Every space with 1 in Availability should be highlighted in blue to mark as open
+     
+     -Every space with 0 in Availability should be greyed out to mark as occupied 
+     
+     -Every space with 1 in Issue should be yellow to mark as pending issue
+     
+     -Should allow admins to see all pending issues and resolve them:
+     
+     -Implement Reserve, Cancel and Report issue features.
   
   Proposed Design of Real-time Map:
   <img width="800" alt="map_design" src="https://user-images.githubusercontent.com/60204834/110062788-eb57b880-7d37-11eb-8250-a93c4602c338.png">
