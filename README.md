@@ -1,7 +1,10 @@
 Parking Simplified
+<br>
 
 <b>Team Name:</b> 
 PSUP
+<br>
+
 <b>Team Members:</b>
 Aakash Patel, Cree Wolf, Riken Patel
 <br>
@@ -67,21 +70,25 @@ Riken:
   
      -Every space with 1 in Availability should be highlighted in blue to mark as open
      
-     -Every space with 0 in Availability should be greyed out to mark as occupied 
+     -Every space with 0 in Availability should be highlighted in red mark as occupied 
      
      -Every space with 1 in Issue should be yellow to mark as pending issue
      
      -Should allow admins to see all pending issues and resolve them:
      
      -Implement Reserve, Cancel and Report issue features.
-  
+  <br>
+
   Proposed Design of Real-time Map:
   <img width="800" alt="map_design" src="https://user-images.githubusercontent.com/60204834/110062788-eb57b880-7d37-11eb-8250-a93c4602c338.png">
 
-  
+  <br>
+
    Create a QR code for the check in/check out system
 
+<br>
 
 <b>Advisor:</b> Dr. Nguyen
+<br>
 
 <b>GitHub Repository:</b> https://github.com/rkp8/ParkingMapApp.git
