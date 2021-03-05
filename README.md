@@ -31,6 +31,7 @@ In addition to saving the user’s time, this is also a more efficient use of fu
  -As user checks out, mark the space as available again
 
 <b>Roles:</b>
+<br>
 
 Aakash:
 
@@ -40,6 +41,7 @@ Aakash:
   
   -Implement various options in the app such as scanning a QR code, Reserve and exit a Spot functionality by updating DB, and showing various spots to choose from.
 
+<br>
 Cree:
 
   -Implement GUI functionality for a better experience.
@@ -50,6 +52,7 @@ Cree:
   
   -Send text message notifications to users
 
+<br>
 
 Riken:
 
