@@ -49,10 +49,16 @@ Riken:
   Create a Real-time map of the parking lot, which updates based on changes in the Firebase db
      Every space with 1 in Availability should be highlighted in blue to mark as open
      Every space with 0 in Availability should be greyed out to mark as occupied 
-     Should allow admins to see all pending issues and resolve them 
-  Create a QR code for the check in/check out system
-  Implement Reserve, Cancel and Report issue features.
+     Every space with 1 in Issue should be yellow to mark as pending issue
+     Should allow admins to see all pending issues and resolve them:
+     Implement Reserve, Cancel and Report issue features.
   
+  Proposed Design of Real-time Map:
+  <img width="800" alt="map_design" src="https://user-images.githubusercontent.com/60204834/110062788-eb57b880-7d37-11eb-8250-a93c4602c338.png">
+
+  
+   Create a QR code for the check in/check out system
+
 
 <b>Advisor:</b> Dr. Nguyen
 
