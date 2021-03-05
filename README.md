@@ -71,7 +71,7 @@ Riken:
  
  -Create a QR code for the check in/check out system
  
- -Create an interactive Real-time map of the parking lot, which updates based on changes in the Firebase db (see next page for more detail)
+ -Create an interactive Real-time map of the parking lot, which updates based on changes in the Firebase db
 
   <br>
 
