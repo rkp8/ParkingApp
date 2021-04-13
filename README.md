@@ -101,11 +101,11 @@ Riken:
    <br>
    -Build Map:
 
-    <br>
+   <br>
 
-    <img width="800" alt="map_design" src="https://user-images.githubusercontent.com/60204834/110062788-eb57b880-7d37-11eb-8250-a93c4602c338.png">
+   <img width="800" alt="map_design" src="https://user-images.githubusercontent.com/60204834/110062788-eb57b880-7d37-11eb-8250-a93c4602c338.png">
 
-    <br>
+   <br>
 
 
       -Implement Reserve a spot (check mark), Cancel a reservation (x mark) and Report issue with a spot (! mark) features. 
