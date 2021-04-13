@@ -64,64 +64,65 @@ Cree:
 
 Riken:
 
- -Allow users to schedule reservation in advance.
+   -Allow users to schedule reservation in advance.
 
- -Design and build check in/check out system, automatically update user balance and other info in firebase db
- 
- -Create a QR code for the check in/check out system
- 
- -Build a user Database which has user details such as Name, Address, car model, make, year and phone number.
- 
- -Create an interactive Real-time map of the parking lot, which updates based on changes in the Firebase db
- 
- -Implement send SMS notifications feature. Add SMS Confirmation texts for all key phases.
- 
- -Send text message notifications to users, if they are needing to extend reservation time.
- 
- 
- -Build Admin-side:
-   
-    -Notify admin of active issues in real-time
-    
-    -Notify admin of users that have exceeded their reservation time
-    
-    -Allow Admin to view relevant information about all users such as: Id, car model, license plate no, etc. 
-    
-    -Allow Admin to send SMS alerts to users
-    
-    -Display real-time Performance metrics of the lot such as:
-       
-        -Current Capacity
-        
-        -Number of Reservations Made
-        
-        -Total Revenue
-        
-        -Popularity of each Spot (how often it is reserved)
- 
+   -Design and build check in/check out system, automatically update user balance and other info in firebase db
 
-  <br>
+   -Create a QR code for the check in/check out system
 
-  <img width="800" alt="map_design" src="https://user-images.githubusercontent.com/60204834/110062788-eb57b880-7d37-11eb-8250-a93c4602c338.png">
+   -Build a user Database which has user details such as Name, Address, car model, make, year and phone number.
 
-  <br>
+   -Create an interactive Real-time map of the parking lot, which updates based on changes in the Firebase db
 
+   -Implement send SMS notifications feature. Add SMS Confirmation texts for all key phases.
 
-    -Implement Reserve a spot (check mark), Cancel a reservation (x mark) and Report issue with a spot (! mark) features. 
-     All should update Firebase db accordingly.
-     
-    -Every space with 1 in Availability should be highlighted in blue to mark as open
+   -Send text message notifications to users, if they are needing to extend reservation time.
 
-    -Every space with 0 in Availability should be highlighted in red mark as occupied 
+   <br>
+   -Build Admin-side:
 
-    -Every space with 1 in Issue should be yellow to mark as pending issue
+      -Notify admin of active issues in real-time
 
-    -Space currently occupied by user should be green
+      -Notify admin of users that have exceeded their reservation time
 
-    -Should allow admins to see all pending issues and resolve them:
+      -Allow Admin to view relevant information about all users such as: Id, car model, license plate no, etc. 
+
+      -Allow Admin to send SMS alerts to users
+
+      -Display real-time Performance metrics of the lot such as:
+
+          -Current Capacity
+
+          -Number of Reservations Made
+
+          -Total Revenue
+
+          -Popularity of each Spot (how often it is reserved)
+   <br>
+   -Build Map:
+
+    <br>
+
+    <img width="800" alt="map_design" src="https://user-images.githubusercontent.com/60204834/110062788-eb57b880-7d37-11eb-8250-a93c4602c338.png">
+
+    <br>
 
 
-<br>
+      -Implement Reserve a spot (check mark), Cancel a reservation (x mark) and Report issue with a spot (! mark) features. 
+       All should update Firebase db accordingly.
+
+      -Every space with 1 in Availability should be highlighted in blue to mark as open
+
+      -Every space with 0 in Availability should be highlighted in red mark as occupied 
+
+      -Every space with 1 in Issue should be yellow to mark as pending issue
+
+      -Space currently occupied by user should be green
+
+      -Should allow admins to see all pending issues and resolve them:
+
+
+ <br>
 
 <b>Advisor:</b> Dr. Nguyen
 <br>
