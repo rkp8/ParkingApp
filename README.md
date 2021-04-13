@@ -43,14 +43,12 @@ In addition to saving the user’s time, this is also a more efficient use of fu
 
 Aakash:
 
- -Design the GUI Components of the App.
+ -Design the Front end of the App
  
- -Build a user Database which has user details such as Name, Address, car model, make, year and phone number.
+ -Promotional Website
  
- -Allow users to schedule reservation in advance.
+ -Improve look and feel of GUI Components of the App.
  
- -Send text message notifications to users, if they are needing to extend reservation time.
-
 <br>
 Cree:
 
@@ -58,20 +56,48 @@ Cree:
   
  -Allow users to edit information about themselves (Name, address, car model etc.)
  
- -Allow users to schedule reservation in advance.
+ -Create the payment form, which allows users to add more funds to their account.
  
- -Implement send SMS notifications feature. 
-
+ 
 
 <br>
 
 Riken:
 
- -Design and build check in/check out system
+ -Allow users to schedule reservation in advance.
+
+ -Design and build check in/check out system, automatically update user balance and other info in firebase db
  
  -Create a QR code for the check in/check out system
  
+ -Build a user Database which has user details such as Name, Address, car model, make, year and phone number.
+ 
  -Create an interactive Real-time map of the parking lot, which updates based on changes in the Firebase db
+ 
+ -Implement send SMS notifications feature. Add SMS Confirmation texts for all key phases.
+ 
+ -Send text message notifications to users, if they are needing to extend reservation time.
+ 
+ -Build Admin-side:
+   
+    -Notify admin of active issues in real-time
+    
+    -Notify admin of users that have exceeded their reservation time
+    
+    -Allow Admin to view relevant information about all users such as: Id, car model, license plate no, etc. 
+    
+    -Allow Admin to send SMS alerts to users
+    
+    -Display real-time Performance metrics of the lot such as:
+       
+        -Current Capacity
+        
+        -Number of Reservations Made
+        
+        -Total Revenue
+        
+        -Popularity of each Spot (how often it is reserved)
+ 
 
   <br>
 
@@ -79,6 +105,10 @@ Riken:
 
   <br>
 
+
+    -Implement Reserve a spot (check mark), Cancel a reservation (x mark) and Report issue with a spot (! mark) features. 
+     All should update Firebase db accordingly.
+     
     -Every space with 1 in Availability should be highlighted in blue to mark as open
 
     -Every space with 0 in Availability should be highlighted in red mark as occupied 
@@ -89,8 +119,6 @@ Riken:
 
     -Should allow admins to see all pending issues and resolve them:
 
-    -Implement Reserve a spot (check mark), Cancel a reservation (x mark) and Report issue with a spot (! mark) features. 
-     All should update Firebase db accordingly.
 
 <br>
 
